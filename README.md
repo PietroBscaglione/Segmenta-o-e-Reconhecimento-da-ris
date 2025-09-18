@@ -1,4 +1,4 @@
-# 👁️ Sistema de Segmentação e Reconhecimento de Íris
+# Sistema de Segmentação e Reconhecimento de Íris
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
@@ -7,13 +7,13 @@
 
 **Status do Projeto: ✔️ Concluído**
 
-## 📖 Descrição
+## Descrição
 
 Este projeto acadêmico implementa um sistema completo de biometria baseado em reconhecimento de íris. O objetivo é aplicar técnicas de processamento de imagem para segmentar a região da íris em uma imagem de um olho, extrair suas características únicas e, por fim, compará-las com uma base de dados para identificar um indivíduo.
 
 A metodologia é amplamente baseada nos algoritmos propostos por John Daugman, uma referência na área de biometria por íris.
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 O pipeline do projeto segue as seguintes etapas:
 
@@ -24,7 +24,7 @@ O pipeline do projeto segue as seguintes etapas:
     * Gera um "código da íris" (IrisCode), um template binário que representa a textura única da íris.
     * Utiliza a **Distância de Hamming** para medir a dissimilaridade entre dois códigos de íris. Quanto menor a distância, mais similares são as íris, permitindo a identificação do indivíduo na base de dados.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Python:** Linguagem principal do projeto.
 - **OpenCV (`cv2`):** Para tarefas de processamento de imagem, como leitura, filtros e detecção de círculos.
@@ -34,13 +34,13 @@ O pipeline do projeto segue as seguintes etapas:
 - **SciPy:** Utilizada para cálculos específicos, como a Distância de Hamming.
 - **Google Colab:** Ambiente de desenvolvimento utilizado para executar o notebook.
 
-## 📊 Dataset
+## Dataset
 
 O projeto utiliza o banco de dados **CASIA-Iris-Thousand**, que contém imagens de íris de alta qualidade, amplamente utilizado para pesquisa e desenvolvimento de sistemas de reconhecimento.
 
 - **Link para o dataset:** [Kaggle: CASIA-IRIS-THOUSAND](https://www.kaggle.com/datasets/sondosaabed/casia-iris-thousand/data)
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
 Este projeto foi desenvolvido para ser executado no ambiente Google Colab. Siga os passos abaixo:
 
@@ -52,7 +52,7 @@ Este projeto foi desenvolvido para ser executado no ambiente Google Colab. Siga 
 3.  **Faça o Upload das Imagens:** Arraste as imagens do dataset da sua máquina para dentro da pasta `img` recém-criada no Colab.
 4.  **Execute as Células:** Com as imagens no local correto, execute todas as células do notebook em ordem.
 
-## 👨‍💻 Autores
+## Autores
 
 Este projeto foi desenvolvido por:
 
